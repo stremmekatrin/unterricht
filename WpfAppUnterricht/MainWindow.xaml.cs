@@ -24,5 +24,10 @@ namespace WpfAppUnterricht
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("What a beautiful thing");
+        }
     }
 }
